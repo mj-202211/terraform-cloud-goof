@@ -1,12 +1,12 @@
 variable "region" {
   type    = string
-  default = "us-west-1"
+  default = "us-east-1"
 }
 
 variable "ami" {
   type    = string
-  description = "ami used for ec2 instance. example - ami-07336266b2c69c546 (terraform-goof-example-ami)"
-  default = "ami-07336266b2c69c546"
+  description = "ami used for ec2 instance. example - ami-052efd3df9dad4825"
+  default = "ami-052efd3df9dad4825"
 }
 
 variable "access_key" {
@@ -24,5 +24,5 @@ variable "s3_acl" {
 
 variable "env" {
   type = string
-  default = "dev"
+  default = "cloud"
 }
